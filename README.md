@@ -123,7 +123,7 @@
     <div class="container">
         <h2>Generate VLESS URI</h2>
         <label for="idInput">Enter new ID:</label>
-        <input type="text" id="idInput" placeholder="Enter new ID">
+        <input type="text" id="idInput" placeholder="Enter ID">
         <button onclick="replaceId()">Generate URI</button>
         <pre id="output"></pre>
         <button id="copyButton" class="copy-button" onclick="copyUri()">
